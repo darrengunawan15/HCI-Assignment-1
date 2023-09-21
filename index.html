@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Computer Interaction</title>
+    <link rel="icon" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="border">
+            <div class="profile-picture">
+                <div>
+                    <p>Darren</p>
+                </div>
+                <img src="./assets/img/profile_picture.jpg" alt="Profile Picture">
+            </div>
+
+            <div class="profile-content">
+                <div class="page-content-1">
+                    <h1>Darren Gunawan</h1>
+                    <h3>2702342256 - L1BC</h3>
+                    <hr> <br>
+                    <p>I'm 17 years old and I'm not sure on how to do programming, but I do find it interesting ^_^</p>
+                    <br>
+                    <h3>Gender</h3>
+                    <input type="radio" name="gender" checked>
+                    <label>Male</label>
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                    <br> <br>
+                    <h3>Social Media</h3>
+                    <a href="https://www.instagram.com/darren_gunawan15" class="social-media" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                        darren_gunawan15
+                    </a>
+                    <a href="https://github.com/darrengunawan15" class="social-media" target="_blank">
+                        <i class='bx bxl-github'></i>
+                        darrengunawan15
+                    </a>
+                    <br>
+                    <h3>Education</h3>
+                    <ol>
+                        <li>Kanaan School <a href="https://kanaan.sch.id/kanaan-christian-school-banjarmasin/" target="_blank">Link</a></li>
+                        <li>Bina Tunas Bangsa School <a href="https://btbschool.org" target="_blank">Link</a></li>
+                        <li>BINUS University <a href="https://international.binus.ac.id" target="_blank">Link</a></li>
+                    </ol>
+                    <br>
+                </div>
+
+                <div class="page-content-2">
+                    <h1>Darren Gunawan</h1>
+                    <h3>2702342256 - L1BC</h3>
+                    <hr> <br>
+                    <h3>Programming Skills</h3>
+                    <input type="checkbox" name="skills" checked>
+                    <label for="skills">HTML</label> <br>
+                    <input type="checkbox" name="skills" checked>
+                    <label for="skills">CSS</label> <br>
+                    <input type="checkbox" name="skills" checked>
+                    <label for="skills">JS</label> <br>
+                    <input type="checkbox" name="skills" checked>
+                    <label for="skills">Java</label> <br>
+                    <input type="checkbox" name="skills" checked>
+                    <label for="skills">Python</label>
+                    <br> <br>
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Listening to music</li>
+                        <li>Playing badminton</li>
+                        <li>Playing co-op games</li>
+                    </ul>
+                </div>
+
+                <div class="pagination">
+                    <ul>
+                        <li class="page active" value="1" onclick="activePage()">1</li>
+                        <li class="page" value="2" onclick="activePage()">2</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
