@@ -52,7 +52,8 @@ body{
 }
 
 .profile-picture p{
-    text-shadow: 3px 2px 6px #252525;
+    text-shadow: 3px 3px 6px #171278,
+                 3px 3px 6px #171278;
     color: white;
     border-radius: 10px;
     padding: 0 10px;
