@@ -8,9 +8,30 @@
     <link rel="icon" href="./assets/img/icon.png">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .clock-container{
+            color: antiquewhite;
+            font-size: 28px;
+            text-shadow: 2px 2px 4px #252525;
+        }
+
+        .hrs, .min, .sec {
+            font-weight: bold;
+        }
+    </style>
 </head>
 
-<body>
+<body style="flex-direction: column;">
+    <div class="clock-container">
+        <div class="clock">
+            <div class="wave"></div>
+            <span class="hrs" style="border-radius: 100%; padding: 8px;">00</span>
+            <span><strong>:</strong></span>
+            <span class="min" style="border-radius: 100%; padding: 8px;">00</span>
+            <span><strong>:</strong></span>
+            <span class="sec" style="border-radius: 100%; padding: 8px;">00</span>
+        </div>
+    </div>
     <div class="container">
         <div class="border">
             <div class="profile-picture">
@@ -45,7 +66,8 @@
                     <br>
                     <h3>Education</h3>
                     <ol>
-                        <li>Kanaan School <a href="https://kanaan.sch.id/kanaan-christian-school-banjarmasin/" target="_blank">Link</a></li>
+                        <li>Kanaan School <a href="https://kanaan.sch.id/kanaan-christian-school-banjarmasin/"
+                                target="_blank">Link</a></li>
                         <li>Bina Tunas Bangsa School <a href="https://btbschool.org" target="_blank">Link</a></li>
                         <li>BINUS University <a href="https://international.binus.ac.id" target="_blank">Link</a></li>
                     </ol>
@@ -76,10 +98,41 @@
                     </ul>
                 </div>
 
+                <div class="page-content-3">
+                    <h1>Darren Gunawan</h1>
+                    <h3>2702342256 - L1BC</h3>
+                    <hr> <br>
+                    <fieldset id="fieldint">
+                        <legend> Projects</legend>
+                        <ul>
+                            <li>
+                                <label>Game 1: <a href="https://snakegame-test.netlify.app/" target="_blank"> Link
+                                    </a></label>
+                                <p>
+                                    How To play: <br>
+                                    ● W, A, S, D to move <br>
+                                    ● You can't hit your own body
+                                </p>
+                            </li>
+                            <li>
+                                <label>Game 2: <a href="https://iknowhowtoplay.netlify.app" target="_blank"> Link
+                                    </a></label>
+                                <p>
+                                    How To play: <br>
+                                    ● Use arrow key to move <br>
+                                    ● Use space to shoot <br>
+                                    ● You only have 3 life
+                                </p>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+
                 <div class="pagination">
                     <ul>
                         <li class="page active" value="1" onclick="activePage()">1</li>
                         <li class="page" value="2" onclick="activePage()">2</li>
+                        <li class="page" value="3" onclick="activePage()">3</li>
                     </ul>
                 </div>
             </div>
