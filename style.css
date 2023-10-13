@@ -116,6 +116,10 @@ body{
     margin-left: 18px;
 }
 
+.page-content-3{
+    height: 380px;
+}
+
 .pagination{
     padding-top: 4px;
 }
@@ -137,6 +141,29 @@ body{
     background-color: black;
 }
 
+#fieldint{
+    padding: 10px 20px 10px 20px ;
+    height: 250px;
+}
+
+#fieldint legend{
+    padding: 0px 10px 0px 10px;
+    color: darkblue;
+}
+
+#fieldint ul{
+    padding-left: 20px;
+}
+
+#fieldint ul li{
+    list-style-type:decimal-leading-zero ;
+    margin-bottom: 20px;
+}
+
+#fieldint ul li p{
+    margin-top: 5px;
+}
+
 @media only screen and (max-width: 800px) {
     .container{
         width: 800px;
@@ -154,6 +181,10 @@ body{
     }
 
     .page-content-2{
+        height: 430px;
+    }
+
+    .page-content-3{
         height: 430px;
     }
 }
@@ -187,6 +218,11 @@ body{
     }
 
     .page-content-2{
+        height: 390px;
+
+    }
+
+    .page-content-3{
         height: 390px;
     }
 }
